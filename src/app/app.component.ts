@@ -13,8 +13,4 @@ export class AppComponent  {
       canvas => saveAs(canvas.toDataURL(), 'qrcode')
     );
   }
-
-  downloadPdf() {
-    
-  }
 }
